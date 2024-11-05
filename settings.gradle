@@ -1,0 +1,16 @@
+include ':IRBottomNavigationLibb'
+include ':LuckyWheel'
+include ':app'
+project(':IRBottomNavigationLibb').projectDir = new File(rootDir, 'IRBottomNavigationLib/')
+rootProject.name='Will VPN v9'
+
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://artifact.bytedance.com/repository/pangle/")
+        }
+    }
+}
+

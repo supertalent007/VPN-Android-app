@@ -53,7 +53,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.navigation.NavigationView;
-import com.willdev.openvpn.BuildConfig;
+//import com.willdev.openvpn.BuildConfig;
 import com.willdev.openvpn.SharedPreference;
 import com.willdev.openvpn.adapter.ServerListRVAdapter;
 import com.willdev.openvpn.interfaces.ChangeServer;

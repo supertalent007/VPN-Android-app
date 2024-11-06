@@ -30,7 +30,7 @@ public class YouApplication extends Application {
                 .addInterceptor(new CalligraphyInterceptor(
                         new CalligraphyConfig.Builder()
                                 .setDefaultFontPath("fonts/opensans_semi_bold.TTF")
-                                .setFontAttrId(R.attr.fontPath)
+                                //.setFontAttrId(R.attr.fontPath)
                                 .build()))
                 .build());
 
